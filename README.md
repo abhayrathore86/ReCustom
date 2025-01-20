@@ -58,9 +58,34 @@ The **Re Custom  Metrics Dashboard** is a web application that allows administra
 
 ### Steps
 
-1. Clone the repository:
-    npm install
+1. Backend
+ Running the Application
+-   **Development Mode**:
+    ```bash
+    npm run start:dev
+    ```
+-   **Production Mode**:
+    ```bash
+    npm run start:prod
+    ```
+2. Frontend
+ Running the Application   
+-   **Development Mode**:
+    ```bash
     npm run dev
+    ```
+-   **Build for Production**:
+    ```bash
+    npm run build
+    ```
+-   **Preview Production Build**:
+    ```bash
+    npm run preview
+    ```
+-   **Testing**:
+    ```bash
+    npm run test
+    ```
 
 # Usage
 ### Login: Use the login form to authenticate and access the dashboard.
